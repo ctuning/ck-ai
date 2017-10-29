@@ -1,0 +1,32 @@
+{
+  "data_uoa": "ck-ai",
+  "data_uid": "4eb8994be792df9b",
+  "data_alias": "ck-ai",
+  "data_name": "ck-ai",
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-ai",
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-caffe",
+        "repo_url": "https://github.com/dividiti/ck-caffe"
+      },
+      {
+        "repo_uoa": "ck-caffe2"
+      },
+      {
+        "repo_uoa": "ck-tensorflow"
+      },
+      {
+        "repo_uoa": "ck-tensorrt",
+        "repo_url": "https://github.com/dividiti/ck-tensorrt"
+      },
+      {
+        "repo_uoa": "ck-mxnet"
+      },
+      {
+        "repo_uoa": "ck-crowdtuning"
+      }
+    ]
+  }
+}
