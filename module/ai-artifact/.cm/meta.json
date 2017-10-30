@@ -1,0 +1,31 @@
+{
+  "actions": {
+    "add": {
+      "desc": "add AI artifact description"
+    },
+    "browse": {
+      "desc": "browse AI artifacts"
+    },
+    "dashboard": {
+      "desc": "view CK AI artifact store"
+    },
+    "html_viewer": {
+      "desc": "show info about AI artifact"
+    },
+    "show": {
+      "desc": "show artifacts with selector"
+    }
+  },
+  "copyright": "See CK COPYRIGHT.txt for copyright details",
+  "desc": "AI artifact store",
+  "developer": "Grigori Fursin",
+  "developer_email": "Grigori.Fursin@cTuning.org",
+  "developer_webpage": "http://fursin.net",
+  "license": "See CK LICENSE.txt for licensing details",
+  "module_deps": {
+    "experiment": "bc0409fb61f0aa82",
+    "module": "032630d041b4fd8a",
+    "qr-code": "5fd6485380ef9ff2",
+    "wfe": "1e4e644996b7f2a0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "customization_desc": {
+    "compatible_framework": {
+      "desc": "Compatible AI framework"
+    },
+    "repo": {
+      "desc": "CK repository"
+    },
+    "repo_url": {
+      "desc": "CK repository URL",
+      "type": "url"
+    }
+  }
+}
