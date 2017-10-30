@@ -8,7 +8,7 @@
       "url_extra": "action=index&module_uoa=wfe&native_action=show&native_module_uoa=ai-artifact", 
       "native_module_uoa":"ai-artifact",
       "native_action":"show",
-      "name": "Dashboard"
+      "name": "AI artifacts"
     }, 
     {
       "name": "Community AI initiative to unify AI", 

@@ -150,7 +150,7 @@ def html_viewer(i):
                   'template':i.get('template','')})
     if rx['return']>0: return rx
     url0=rx['url']
-    url0w=rx['url_without_template']
+    url0w=rx['url'] #rx['url_without_template']
     template=rx['template']
 
     url=url0
@@ -236,6 +236,12 @@ def html_viewer(i):
 
        # Start preparing html
        x='<center><H2>Reusable and customizable AI artifact in the <a href="https://github.com/ctuning/ck/wiki">CK format</a> with JSON API</H2></center>\n'
+
+       x+='<div id="ck_entries_space8"></div>\n'
+       x+='<i><center>\n'
+       x+='This is an on-going open project - help the community by improving this description <a href="https://github.com/ctuning/ck-ai">here</a>, adding other AI artifacts in the CK format, and joining the growing <a href="http://cknowledge.org/partners.html">CK AI consortium</a>!\n'
+       x+='</center></i>\n'
+       x+='<div id="ck_entries_space8"></div>\n'
 
        x+='<H2>Sources:</H2>\n'
 
@@ -357,7 +363,7 @@ def show(i):
                   'template':i.get('template','')})
     if rx['return']>0: return rx
     url0=rx['url']
-    url0w=rx['url_without_template']
+    url0w=rx['url'] #rx['url_without_template']
     template=rx['template']
 
     url=url0
@@ -513,6 +519,13 @@ def show(i):
     h+='<center>\n'
     h+='<b>Browse reusable, customizable and unified AI artifacts in the <a href="https://github.com/ctuning/ck-ai">CK format with JSON API</a></b>\n'
     h+='<br>\n'
+
+    h+='<div id="ck_entries_space8"></div>\n'
+    h+='<i>\n'
+    h+='This is an on-going open project - help the community by adding other AI artifacts in the CK format <a href="https://github.com/ctuning/ck-ai">here</a> and join the growing <a href="http://cknowledge.org/partners.html">CK AI consortium</a>!\n'
+    h+='</i><br>\n'
+    h+='<div id="ck_entries_space8"></div>\n'
+
     h+=h1+'\n'+h2
 
     ltable=len(table)
