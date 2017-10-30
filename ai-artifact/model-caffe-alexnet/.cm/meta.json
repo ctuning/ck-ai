@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "alexnet",
+    "source": "https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet",
+    "source_ck": "https://github.com/ctuning/ck-caffe",
+    "type": "model"
+  }
+}

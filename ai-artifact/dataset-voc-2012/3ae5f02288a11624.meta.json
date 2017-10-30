@@ -1,0 +1,6 @@
+{
+  "version":"2012",
+  "compatible_framework":"caffe",
+  "os":"any",
+  "platform":"any"
+}

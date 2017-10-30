@@ -1,0 +1,12 @@
+{
+  "compatible_framework":"caffe",
+  "pre-built":"",
+  "os":"windows",
+  "platform":"",
+  "api_python":"",
+  "api_c":"",
+  "api_cxx":"",
+  "cpu":"",
+  "gpu_api":"cuda 8.x",
+  "nn":""
+}

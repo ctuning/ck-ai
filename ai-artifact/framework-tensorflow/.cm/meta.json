@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "tensorflow",
+    "source": "https://www.tensorflow.org",
+    "source_ck": "https://github.com/ctuning/ck-tensorflow",
+    "type": "framework"
+  }
+}

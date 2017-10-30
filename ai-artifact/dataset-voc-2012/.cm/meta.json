@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "voc 2012",
+    "source": "http://host.robots.ox.ac.uk/pascal/VOC",
+    "source_ck": "https://github.com/dividiti/ck-caffe",
+    "type": "dataset"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "type": "framework",
+    "name":"caffe",
+    "source":"http://caffe.berkeleyvision.org",
+    "source_ck":"https://github.com/dividiti/ck-caffe"
+  }
+}

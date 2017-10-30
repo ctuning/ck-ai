@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "kitti drive 0009",
+    "source": "http://kitti.is.tue.mpg.de/kitti",
+    "source_ck": "https://github.com/dividiti/ck-tensorflow",
+    "type": "dataset"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "alexnet",
+    "source": "https://github.com/caffe2/caffe2/wiki/Model-Zoo",
+    "source_ck": "https://github.com/ctuning/ck-caffe2",
+    "type": "model"
+  }
+}

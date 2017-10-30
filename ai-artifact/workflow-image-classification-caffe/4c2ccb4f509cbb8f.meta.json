@@ -1,0 +1,15 @@
+{
+  "compatible_framework":"caffe",
+  "version":"any",
+  "prebuilt":"",
+  "os":"any",
+  "platform":"any",
+  "compiler_cpu":"",
+  "compiler_gpu":"",
+  "api_python":"yes",
+  "api_c":"no",
+  "api_cxx":"no",
+  "cpu":"any",
+  "gpu_api":"any",
+  "nn":"no"
+}

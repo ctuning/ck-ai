@@ -1,0 +1,15 @@
+{
+  "compatible_framework":"caffe2",
+  "version":"master",
+  "prebuilt":"no",
+  "os":"windows",
+  "platform":"",
+  "compiler_cpu":"visual studio 2017 (15.0, not 15.4!)",
+  "compiler_gpu":"cuda 9.x",
+  "api_python":"yes",
+  "api_c":"no",
+  "api_cxx":"no",
+  "cpu":"x64",
+  "gpu_api":"cuda",
+  "nn":"no"
+}

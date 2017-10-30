@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "caffe2",
+    "source": "https://caffe2.ai",
+    "source_ck": "https://github.com/ctuning/ck-caffe2",
+    "type": "framework"
+  }
+}

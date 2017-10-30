@@ -1,0 +1,5 @@
+{
+  "compatible_framework": "caffe2",
+  "version":"1.1",
+  "os":"linux"
+}

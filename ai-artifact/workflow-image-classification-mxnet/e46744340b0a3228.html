@@ -1,0 +1,19 @@
+Pre-requisites:<br>
+<ul>
+ <li>Python 2.7+ or 3.4+
+ <li>Collective Knowledge
+ <li>PIP
+ <li>Other Python dependencies should be installed by the CK
+</ul>
+
+Installation:<br>
+<pre>
+ck pull repo:ck-mxnet
+ck install package --tags=lib,mxnet-cpu,vprebuilt,v0.11.0
+ck install package --tags=mxnetmodel
+</pre>
+
+Usage example (image classification):<br>
+<pre>
+ck run program:mxnet
+</pre>

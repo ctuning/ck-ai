@@ -1,0 +1,8 @@
+{
+ "meta":{
+  "type":"framework",
+  "name":"mxnet",
+  "source":"http://mxnet.incubator.apache.org",
+  "source_ck":"https://github.com/ctuning/ck-mxnet"
+ }
+}

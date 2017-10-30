@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "googlenet",
+    "source": "",
+    "source_ck": "https://github.com/ctuning/ck-caffe",
+    "type": "model"
+  }
+}

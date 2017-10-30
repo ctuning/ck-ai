@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "inception",
+    "source": "http://download.tensorflow.org/models/image/imagenet",
+    "source_ck": "https://github.com/ctuning/ck-tensorflow",
+    "type": "model"
+  }
+}

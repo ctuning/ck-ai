@@ -1,0 +1,15 @@
+{
+  "compatible_framework":"caffe2",
+  "version":"0.8.1",
+  "prebuilt":"no",
+  "os":"linux",
+  "platform":"",
+  "compiler_cpu":"gcc 6.2+",
+  "compiler_gpu":"",
+  "api_python":"yes",
+  "api_c":"yes",
+  "api_cxx":"yes",
+  "cpu":"x64",
+  "gpu":"no",
+  "nn":"no"
+}

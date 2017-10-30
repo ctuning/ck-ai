@@ -1,0 +1,15 @@
+{
+  "compatible_framework":"tensorflow",
+  "version":"1.3.0",
+  "prebuilt":"yes",
+  "os":"windows",
+  "platform":"",
+  "compiler_cpu":"",
+  "compiler_gpu":"cuda 9.x",
+  "api_python":"yes",
+  "api_c":"yes",
+  "api_cxx":"yes",
+  "cpu":"x64",
+  "gpu_api":"cuda",
+  "nn":"no"
+}

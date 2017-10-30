@@ -1,0 +1,4 @@
+{
+  "compatible_framework": "caffe2",
+  "os":"macos"
+}

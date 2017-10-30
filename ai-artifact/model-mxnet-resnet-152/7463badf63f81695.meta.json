@@ -1,0 +1,4 @@
+{
+  "compatible_framework": "mxnet",
+  "os":"windows"
+}

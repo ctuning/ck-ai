@@ -242,18 +242,20 @@ def html_viewer(i):
        source=meta.get('source','')
        source_ck=meta.get('source_ck','')
 
-       if source!='' or source_ck!='':
-          x+='<ul>\n'
-          if source!='':
-             x+='<li>Source and license: <a href="'+source+'">'+source+'</a>\n</li>'
-          if source_ck!='':
-             x+='<li>CK repository: <a href="'+source_ck+'">'+source_ck+'</a>\n</li>'
-          x+='</ul>\n'
+       x+='<ul>\n'
+       if source!='':
+          x+='<li>Source and license: <a href="'+source+'">'+source+'</a>\n</li>'
+       if source_ck!='':
+          x+='<li>CK repository with this artifact: <a href="'+source_ck+'">'+source_ck+'</a>\n</li>'
+       if source_ck!='':
+          x+='<li>CK repository with collaborative optimization across diverse platforms/models/datasets/libraries: <a href="http://cKnowledge.org/repo">browse</a>\n</li>'
+
+       x+='</ul>\n'
 
        if source_ck!='':
           j=source_ck.find('/ctuning/')
           if j>0:
-             y=':'+source_ck[j+7:]
+             y=':'+source_ck[j+9:]
           else:
              y=' --repo='+source_ck
 
@@ -287,7 +289,7 @@ def html_viewer(i):
           notes='<i>Not added yet - be the first one to add notes <b><a href="https://github.com/ctuning/ck-ai">here</a></b> !</i>'
 
        x+='<H2>Installation, usage and optimization notes:</H2>\n'
-       x+='<div style="margin-left:20px;">\n'
+       x+='<div style="margin-left:20px;font-size:14px;">\n'
        x+=notes
        x+='</div\n>'
        x+='<br>\n'
@@ -509,7 +511,7 @@ def show(i):
     h1=r['html']
 
     h+='<center>\n'
-    h+='<b>Browse reusable, customizable and unified AI artifacts in the <a href="https://github.com/ctuning/ck/wiki">CK format with JSON API</a></b>\n'
+    h+='<b>Browse reusable, customizable and unified AI artifacts in the <a href="https://github.com/ctuning/ck-ai">CK format with JSON API</a></b>\n'
     h+='<br>\n'
     h+=h1+'\n'+h2
 
@@ -528,6 +530,7 @@ def show(i):
     # Sort again
     stable=sorted(table, key=lambda x: (
         x.get('meta_type',''), 
+        x.get('info_data_uoa',''), 
         x.get('meta_name',''), 
         x.get('platform',''),
         x.get('os','')))

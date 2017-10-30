@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "image-classification",
+    "source": "https://caffe2.ai/docs/tutorial-loading-pre-trained-models.html",
+    "source_ck": "https://github.com/ctuning/ck-caffe2",
+    "type": "workflow"
+  }
+}

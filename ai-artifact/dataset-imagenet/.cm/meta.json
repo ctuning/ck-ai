@@ -1,0 +1,8 @@
+{
+ "meta":{
+  "type":"dataset",
+  "name":"imagenet",
+  "source":"http://www.image-net.org/challenges/LSVRC/2012/nonpub-downloads",
+  "source_ck":"https://github.com/dividiti/ck-caffe"
+ }
+}

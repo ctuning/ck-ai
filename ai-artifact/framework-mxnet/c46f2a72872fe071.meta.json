@@ -1,0 +1,15 @@
+{
+  "compatible_framework":"mxnet",
+  "version":"0.11.0",
+  "prebuilt":"yes",
+  "os":"windows",
+  "platform":"",
+  "compiler_cpu":"",
+  "compiler_gpu":"cuda 8.x",
+  "api_python":"yes",
+  "api_c":"no",
+  "api_cxx":"no",
+  "cpu":"x64",
+  "gpu_api":"cuda",
+  "nn":"no"
+}

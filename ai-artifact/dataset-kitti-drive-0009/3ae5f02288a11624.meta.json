@@ -1,0 +1,6 @@
+{
+  "version":"0009",
+  "compatible_framework":"tensorflow",
+  "os":"any",
+  "platform":"any"
+}

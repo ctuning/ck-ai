@@ -1,0 +1,30 @@
+Pre-requisites:<br>
+<ul>
+ <li>Python 2.7
+ <li>Collective Knowledge
+ <li>PIP
+</ul>
+
+Python 3.x not fully supported yet!
+
+Installation:<br>
+<pre>
+sudo apt install coreutils build-essential make cmake wget git python python-pip
+sudo pip install jupyter pandas numpy scipy matplotlib scikit-image scikit-learn pyyaml protobuf future google
+sudo pip install --upgrade beautifulsoup4
+sudo pip install --upgrade html5lib
+
+ck pull repo:ck-caffe2
+ck install package --tags=lib,caffe2,vcpu,vmaster
+</pre>
+
+Usage example (image classification):<br>
+<pre>
+ck run program:caffe2
+</pre>
+
+Crowd-benchmarking (see <a href="https://arxiv.org/abs/1506.06256">paper</a>):<br>
+<pre>
+ck crowdbench caffe2 --env.BATCH_SIZE=5 --user=i_want_to_ack_my_contribution
+</pre>
+

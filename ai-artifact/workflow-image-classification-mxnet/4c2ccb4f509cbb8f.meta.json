@@ -1,0 +1,15 @@
+{
+  "compatible_framework":"mxnet",
+  "version":"0.8.1",
+  "prebuilt":"",
+  "os":"linux",
+  "platform":"",
+  "compiler_cpu":"",
+  "compiler_gpu":"",
+  "api_python":"yes",
+  "api_c":"no",
+  "api_cxx":"no",
+  "cpu":"x64",
+  "gpu":"no",
+  "nn":"no"
+}

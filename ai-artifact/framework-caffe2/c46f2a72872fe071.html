@@ -1,0 +1,32 @@
+Pre-requisites:<br>
+<ul>
+ <li>CUDA compatible device
+ <li>CUDA 8.x library and compiler (will be automatically detected by the CK)
+ <li>Possibly cuDNN 5+
+ <li>Python 2.7+ or 3.4+
+ <li>Collective Knowledge
+ <li>PIP
+</ul>
+
+Installation:<br>
+<pre>
+We tested it with Anaconda Python 2.x (should be in path for pip). Note that only stable package currently works - 0.8.1 (there is an issue with custom protobuf in the master branch)
+
+$ pip install jupyter pandas numpy scipy matplotlib scikit-image scikit-learn pyyaml protobuf future google
+$ pip install --upgrade beautifulsoup4
+$ pip install --upgrade html5lib
+
+ck pull repo:ck-caffe2
+ck install package --tags=lib,caffe2,vcuda,v0.8.1
+</pre>
+
+Usage example (image classification):<br>
+<pre>
+ck run program:caffe2
+</pre>
+
+Crowd-benchmarking (see <a href="https://arxiv.org/abs/1506.06256">paper</a>):<br>
+<pre>
+ck crowdbench caffe2 --env.BATCH_SIZE=5 --user=i_want_to_ack_my_contribution
+</pre>
+

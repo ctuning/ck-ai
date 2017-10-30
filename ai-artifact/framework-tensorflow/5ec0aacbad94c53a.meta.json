@@ -1,0 +1,15 @@
+{
+  "compatible_framework":"tensorflow",
+  "version":"1.3.0",
+  "prebuilt":"yes",
+  "os":"linux",
+  "platform":"",
+  "compiler_cpu":"",
+  "compiler_gpu":"",
+  "api_python":"no",
+  "api_c":"yes",
+  "api_cxx":"yes",
+  "cpu":"aarch64",
+  "gpu_api":"no",
+  "nn":"no"
+}

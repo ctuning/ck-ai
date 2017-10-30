@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "image-classification",
+    "source": "https://github.com/apache/incubator-mxnet/tree/master/example/image-classification",
+    "source_ck": "https://github.com/ctuning/ck-mxnet",
+    "type": "workflow"
+  }
+}

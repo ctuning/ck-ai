@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "coco 2014",
+    "source": "http://cocodataset.org/",
+    "source_ck": "https://github.com/dividiti/ck-caffe",
+    "type": "dataset"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "image-classification",
+    "source": "https://www.tensorflow.org/tutorials/image_recognition",
+    "source_ck": "https://github.com/ctuning/ck-tensorflow",
+    "type": "workflow"
+  }
+}
