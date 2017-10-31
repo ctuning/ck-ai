@@ -8,7 +8,7 @@
 This is an [on-going community project](http://cKnowledge.org/ai) to unify and automate AI research,
 share AI artifacts as customizable and reusable components with JSON API using 
 [open-source CK framework](http://github.com/ctuning/ck),
-[continuously optimize and co-design the whole AI/SW/HW stack](http://cKnowledge.org/repo) 
+continuously [optimize and co-design the whole AI/SW/HW stack](http://cKnowledge.org/repo) 
 across diverse hardware/models/data sets/libraries,
 and help researchers adapt to a Cambrian AI/SW/HW explosion and technological chaos:
 
@@ -22,9 +22,6 @@ Current AI artifacts are for [Caffe](https://github.com/dividiti/ck-caffe),
 and [MXNet](https://github.com/ctuning/ck-mxnet).
 
 See [cKnowledge.org/ai](http://cKnowledge.org/ai) for more details.
-
-## Web front-end to browse reusable AI artifacts:
-* [http://cKnowledge.org/ai-artifacts]
 
 ## Coordination of development
 * [Open CK AI consortium](http://cKnowledge.org/partners.org)
@@ -71,5 +68,7 @@ Feel free to ask further questions via [CK public mailing list](http://groups.go
 
 ## Next steps
 
-The [CK AI consortium](http://cKnowledge.org/partners.html) is now working on a unification of AI APIs 
+We gradually add references about [all existing CK artifacts](http://cknowledge.org/repo/web.php?template=cknowledge&sort_by_uoa=yes&search_by_tags=tensorflow|caffe|caffe2|cntk|mxnet&aview=yes&ignore_without_alias=yes&archive_all=yes&force_limit=200&repo_list=ck-caffe,ck-tensorflow,ck-caffe2,ck-cntk,ck-mxnet) 
+including their installation, usage and optimization.
+The [CK AI consortium](http://cKnowledge.org/partners.html) is also working on a unification of all AI APIs 
 and meta descriptions - join us!
