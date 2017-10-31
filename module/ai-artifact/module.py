@@ -239,10 +239,10 @@ def html_viewer(i):
 
        x+='<div id="ck_entries_space8"></div>\n'
        x+='<i><center>\n'
-       x+='This is an on-going open project - join the <a href="http://cknowledge.org/partners.html">Open CK AI consortium</a>'
-       x+=' and help the community improve this description via <a href="https://github.com/ctuning/ck-ai">GitHub</a>,'
-       x+=' add other AI artifacts in the CK format, and <a href="http://cKnowledge.org/repo">crowdsource their optimization</a>'
-       x+=' across diverse platforms!\n'
+       x+='This is an on-going <a href="http://cKnowledge.org/ai">open project</a>'
+       x+=' - you are welcome to join the growing <a href="http://cknowledge.org/partners.html">CK AI consortium</a>,'
+       x+=' help the community improve this description via <a href="https://github.com/ctuning/ck-ai">GitHub</a>,'
+       x+=' add other AI artifacts in the CK format, and <a href="http://cKnowledge.org/repo">crowdsource their optimization and co-design</a>!'
        x+='</center></i>\n'
        x+='<div id="ck_entries_space8"></div>\n'
 
@@ -525,11 +525,10 @@ def show(i):
 
     h+='<div id="ck_entries_space8"></div>\n'
     h+='<i>\n'
-    h+='This is an on-going open project - help the community by adding other AI artifacts in the CK format <a href="https://github.com/ctuning/ck-ai">here</a> and join the growing <a href="http://cknowledge.org/partners.html">CK AI consortium</a>!\n'
-
-    h+='This is an on-going open project - join the <a href="http://cknowledge.org/partners.html">Open CK AI consortium</a>'
-    h+=' and help the community by adding other AI artifacts and their descriptions in the CK format via <a href="https://github.com/ctuning/ck-ai">GitHub</a>'
-    h+=' and <a href="http://cKnowledge.org/repo">crowdsourcing AI/SW/HW co-design</a>.'
+    h+='This is an on-going <a href="http://cKnowledge.org/ai">open project</a> -'
+    h+=' you are welcome to join the growing <a href="http://cknowledge.org/partners.html">CK AI consortium</a>,'
+    h+=' help the community, add other AI artifacts and their descriptions in the CK format via <a href="https://github.com/ctuning/ck-ai">GitHub</a>'
+    h+=' and <a href="http://cKnowledge.org/repo">crowdsource AI/SW/HW co-design</a>.'
     h+='</center></i>\n'
 
     h+='</i><br>\n'
