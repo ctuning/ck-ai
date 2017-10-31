@@ -529,9 +529,7 @@ def show(i):
     h+=' you are welcome to join the growing <a href="http://cknowledge.org/partners.html">CK AI consortium</a>,'
     h+=' help the community, add other AI artifacts and their descriptions in the CK format via <a href="https://github.com/ctuning/ck-ai">GitHub</a>'
     h+=' and <a href="http://cKnowledge.org/repo">crowdsource AI/SW/HW co-design</a>.'
-    h+='</center></i>\n'
-
-    h+='</i><br>\n'
+    h+='</i>\n'
     h+='<div id="ck_entries_space8"></div>\n'
 
     h+=h1+'\n'+h2
