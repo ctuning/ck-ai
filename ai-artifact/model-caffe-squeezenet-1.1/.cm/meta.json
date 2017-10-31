@@ -2,7 +2,7 @@
   "meta": {
     "name": "squeezenet",
     "source": "https://github.com/DeepScale/SqueezeNet",
-    "source_ck": "https://github.com/ctuning/ck-caffe",
+    "source_ck": "https://github.com/dividiti/ck-caffe",
     "type": "model"
   }
 }

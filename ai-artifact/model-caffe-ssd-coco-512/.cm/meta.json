@@ -2,7 +2,7 @@
   "meta": {
     "name": "ssd-coco-512",
     "source": "",
-    "source_ck": "https://github.com/ctuning/ck-caffe",
+    "source_ck": "https://github.com/dividiti/ck-caffe",
     "type": "model"
   }
 }

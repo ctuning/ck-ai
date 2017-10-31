@@ -2,7 +2,7 @@
   "meta": {
     "name": "image-classification",
     "source": "http://caffe.berkeleyvision.org/",
-    "source_ck": "https://github.com/ctuning/ck-caffe",
+    "source_ck": "https://github.com/dividiti/ck-caffe",
     "type": "workflow"
   }
 }
