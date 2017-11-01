@@ -175,6 +175,7 @@ def html_viewer(i):
                  'data_uoa':duoa})
     if r['return']>0: return r
 
+    duoa=r['data_uoa']
     path=r['path']
     data=r['dict']
     meta=data.get('meta',{})
@@ -239,10 +240,9 @@ def html_viewer(i):
 
        x+='<div id="ck_entries_space8"></div>\n'
        x+='<i><center>\n'
-       x+='This is an on-going <a href="http://cKnowledge.org/ai">open project</a>'
-       x+=' - you are welcome to join the growing <a href="http://cknowledge.org/partners.html">CK AI consortium</a>,'
-       x+=' help the community improve this description via <a href="https://github.com/ctuning/ck-ai">GitHub</a>,'
-       x+=' add other AI artifacts in the CK format, and <a href="http://cKnowledge.org/repo">crowdsource their optimization and co-design</a>!'
+       x+='This is an on-going <a href="http://cKnowledge.org/ai">community project</a>'
+       x+=' to gradually convert various AI artifacts to the common CK format'
+       x+=' and <a href="http://cKnowledge.org/repo">collaboratively optimize AI algorithms</a>.'
        x+='</center></i>\n'
        x+='<div id="ck_entries_space8"></div>\n'
 
@@ -256,9 +256,9 @@ def html_viewer(i):
           x+='<li>Source and license: <a href="'+source+'">'+source+'</a>\n</li>'
        if source_ck!='':
           x+='<li>CK repository with this artifact: <a href="'+source_ck+'">'+source_ck+'</a>\n</li>'
-       if source_ck!='':
-          x+='<li>CK repository with collaborative optimization across diverse platforms/models/datasets/libraries: <a href="http://cKnowledge.org/repo">browse</a>\n</li>'
-
+#       if source_ck!='':
+#          x+='<li>CK repository with collaborative optimization across diverse platforms/models/datasets/libraries: <a href="http://cKnowledge.org/repo">browse</a>\n</li>'
+       x+='<li>This description at GitHub: <a href="https://github.com/ctuning/ck-ai/tree/master/ai-artifact/'+duoa+'">browse/improve</a>\n</li>'
        x+='</ul>\n'
 
        if source_ck!='':
@@ -525,10 +525,9 @@ def show(i):
 
     h+='<div id="ck_entries_space8"></div>\n'
     h+='<i>\n'
-    h+='This is an on-going <a href="http://cKnowledge.org/ai">open project</a> -'
-    h+=' you are welcome to join the growing <a href="http://cknowledge.org/partners.html">CK AI consortium</a>,'
-    h+=' help the community, add other AI artifacts and their descriptions in the CK format via <a href="https://github.com/ctuning/ck-ai">GitHub</a>'
-    h+=' and <a href="http://cKnowledge.org/repo">crowdsource AI/SW/HW co-design</a>.'
+    h+='This is an on-going <a href="http://cKnowledge.org/ai">community project</a>'
+    h+=' to gradually convert various AI artifacts to the common CK format'
+    h+=' and <a href="http://cKnowledge.org/repo">collaboratively optimize AI algorithms</a>.'
     h+='</i>\n'
     h+='<div id="ck_entries_space8"></div>\n'
 
