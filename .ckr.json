@@ -25,6 +25,9 @@
         "repo_uoa": "ck-mxnet"
       },
       {
+        "repo_uoa": "ck-cntk"
+      },
+      {
         "repo_uoa": "ck-crowdtuning"
       }
     ]
