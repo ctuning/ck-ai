@@ -18,8 +18,9 @@ You can browse reusable AI artifacts from this repository [online](http://cKnowl
 
 Current AI artifacts are for [Caffe](https://github.com/dividiti/ck-caffe), 
 [Caffe2](https://github.com/ctuning/ck-caffe2),
-[TensorFlow](https://github.com/ctuning/ck-tensorflow) 
-and [MXNet](https://github.com/ctuning/ck-mxnet).
+[TensorFlow](https://github.com/ctuning/ck-tensorflow),
+[MXNet](https://github.com/ctuning/ck-mxnet)
+and [CNTK](https://github.com/ctuning/ck-cntk).
 
 See [cKnowledge.org/ai](http://cKnowledge.org/ai) for more details.
 
