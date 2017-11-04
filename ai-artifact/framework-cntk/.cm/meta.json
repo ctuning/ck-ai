@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "cntk",
+    "source": "https://docs.microsoft.com/en-us/cognitive-toolkit/",
+    "source_ck": "https://github.com/ctuning/ck-cntk",
+    "type": "framework"
+  }
+}

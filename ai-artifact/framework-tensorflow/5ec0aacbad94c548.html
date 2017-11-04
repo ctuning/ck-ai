@@ -1,0 +1,32 @@
+Pre-requisites:<br>
+<ul>
+ <li>CUDA compatible device
+ <li>CUDA 9.x library and compiler (will be automatically detected by the CK)
+ <li>Possibly cuDNN 6+
+ <li>Python 3.6
+ <li>Collective Knowledge
+ <li>PIP
+</ul>
+
+Installation:<br>
+<pre>
+$ sudo apt-get install python3-dev python3-pip python3-setuptools
+$ sudo pip3 --upgrade install pip
+$ sudo pip3 install wheel protobuf easydict joblib image
+$ sudo pip3 install ck
+
+pip install ck
+ck pull repo:ck-tensorflow
+ck install package --tags=lib,tensorflow,vcuda,v1.4.0
+</pre>
+
+Usage example (image classification):<br>
+<pre>
+ck run program:tensorflow
+</pre>
+
+Crowd-benchmarking (see <a href="https://arxiv.org/abs/1506.06256">paper</a>):<br>
+<pre>
+ck crowdbench tensorflow --user={your email or ID to acknowledge contributions} (--env.BATCH_SIZE=128 --env.NUM_BATCHES=100)
+</pre>
+

@@ -1,0 +1,21 @@
+Pre-requisites:<br>
+<ul>
+ <li>CUDA compatible device
+ <li>CUDA 8.x library and compiler (will be automatically detected by the CK)
+ <li>Python 2.7+ or 3.4+
+ <li>Collective Knowledge
+ <li>PIP
+ <li>Other Python dependencies should be installed by the CK
+</ul>
+
+Installation:<br>
+<pre>
+pip install ck
+ck pull repo:ck-cntk
+ck install package --tags=lib,cntk,vgpu,v2.2 --no_tags=vgpu-1bit-sgd
+</pre>
+
+Usage example (feed forward net):<br>
+<pre>
+ck run program:cntk
+</pre>
