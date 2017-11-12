@@ -69,7 +69,7 @@ Feel free to ask further questions via [CK public mailing list](http://groups.go
 
 ## Next steps
 
-We gradually add references about [all existing CK artifacts](http://cknowledge.org/repo/web.php?template=cknowledge&sort_by_uoa=yes&search_by_tags=tensorflow|caffe|caffe2|cntk|mxnet&aview=yes&ignore_without_alias=yes&archive_all=yes&force_limit=200&repo_list=ck-caffe,ck-tensorflow,ck-caffe2,ck-cntk,ck-mxnet) 
+We gradually add references about [all existing CK artifacts](http://cknowledge.org/repo/web.php?template=cknowledge&sort_by_uoa=yes&search_by_tags=tensorflow|caffe|caffe2|cntk|mxnet&aview=yes&ignore_without_alias=yes&archive_all=yes&force_limit=200&repo_list=ck-caffe,ck-tensorflow,ck-caffe2,ck-cntk,ck-mxnet,ck-mvnc) 
 including their installation, usage and optimization.
 The [CK AI consortium](http://cKnowledge.org/partners.html) is also working on a unification of all AI APIs 
 and meta descriptions - join us!
