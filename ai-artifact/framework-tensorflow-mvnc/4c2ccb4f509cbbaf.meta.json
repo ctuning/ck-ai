@@ -1,0 +1,15 @@
+{
+  "compatible_framework":"tensorflow",
+  "version":"",
+  "prebuilt":"no",
+  "os":"linux",
+  "platform":"rpi3",
+  "compiler_cpu":"",
+  "compiler_gpu":"",
+  "api_python":"yes",
+  "api_c":"yes",
+  "api_cxx":"yes",
+  "cpu":"",
+  "gpu":"no",
+  "nn":"Movidius Neural Compute Stick"
+}

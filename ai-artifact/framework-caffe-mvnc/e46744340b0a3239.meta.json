@@ -1,0 +1,12 @@
+{
+  "compatible_framework":"caffe",
+  "pre-built":"",
+  "os":"linux",
+  "platform":"",
+  "api_python":"",
+  "api_c":"",
+  "api_cxx":"",
+  "cpu":"",
+  "gpu_api":"no",
+  "nn":"Movidius Neural Compute Stick"
+}

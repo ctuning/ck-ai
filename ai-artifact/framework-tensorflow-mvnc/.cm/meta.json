@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "tensorflow",
+    "source": "https://developer.movidius.com/start",
+    "source_ck": "https://github.com/ctuning/ck-mvnc",
+    "type": "framework"
+  }
+}
