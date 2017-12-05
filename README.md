@@ -22,7 +22,7 @@ Current AI artifacts are for [Caffe](https://github.com/dividiti/ck-caffe),
 [MXNet](https://github.com/ctuning/ck-mxnet)
 and [CNTK](https://github.com/ctuning/ck-cntk).
 
-See [cKnowledge.org/ai](http://cKnowledge.org/ai) for more details.
+See [cKnowledge.org/ai](http://cKnowledge.org/ai) and [cKnowledge.org/request](http://cKnowledge.org/request) for more details.
 
 ## Coordination of development
 * [Open CK AI consortium](http://cKnowledge.org/partners.org)
