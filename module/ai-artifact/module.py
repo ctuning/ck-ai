@@ -242,7 +242,8 @@ def html_viewer(i):
        x+='<i><center>\n'
        x+='This is an on-going <a href="http://cKnowledge.org/ai">community project</a>'
        x+=' to gradually make various AI artifacts compatible with <a href="https://github.com/ctuning/ck/wiki/Portable-workflows">portable CK workflows</a>'
-       x+=' and <a href="http://cKnowledge.org/repo">collaboratively optimize AI algorithms</a>.'
+       x+=' and <a href="http://cKnowledge.org/repo">collaboratively optimize AI algorithms</a>'
+       x+=' via <a href="http://cKnowledge.org/request">open and reproducible SW/HW/AI co-design competitions</a>!'
        x+='</center></i>\n'
        x+='<div id="ck_entries_space8"></div>\n'
 
