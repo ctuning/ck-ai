@@ -528,7 +528,8 @@ def show(i):
     h+='<i>\n'
     h+='This is an on-going <a href="http://cKnowledge.org/ai">community project</a>'
     h+=' to gradually make various AI artifacts compatible with <a href="https://github.com/ctuning/ck/wiki/Portable-workflows">portable CK workflows</a>'
-    h+=' and <a href="http://cKnowledge.org/repo">collaboratively optimize AI algorithms</a>.'
+    h+=' and <a href="http://cKnowledge.org/repo">collaboratively optimize AI algorithms</a>'
+    h+=' via <a href="http://cKnowledge.org/request">open and reproducible SW/HW/AI co-design competitions</a>!'
     h+='</i>\n'
     h+='<div id="ck_entries_space8"></div>\n'
 
