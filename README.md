@@ -41,12 +41,12 @@ The minimal installation requires:
 You can install CK in your local user space simply as following:
 
 ```
-$ git clone http://github.com/ctuning/ck
-$ export PATH=$PWD/ck/bin:$PATH
-
+$ git clone http://github.com/ctuning/ck ck-master
+$ export PATH=$PWD/ck-master/bin:$PATH
+$ export PYTHONPATH=$PWD/ck-master:$PYTHONPATH
 ```
 
-or
+You can also install CK via pip with sudo to avoid setting up environment variables yourself (skip sudo on Windows);
 
 ```
 $ sudo pip install ck
