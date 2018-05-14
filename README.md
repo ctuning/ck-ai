@@ -29,12 +29,47 @@ See [cKnowledge.org/ai](http://cKnowledge.org/ai) and [cKnowledge.org/request](h
 * [dividiti](http://dividiti.com)
 * [cTuning Foundation](http://cTuning.org)
 
-## Usage (Linux, MacOS, Windows)
+## Minimal installation
 
-Install CK and view artifacts locally
+The minimal installation requires:
+
+* Python 2.7 or 3.3+ (limitation is mainly due to unitests)
+* Git command line client.
+
+### Linux/MacOS
+
+You can install CK in your local user space simply as following:
 
 ```
-$ pip install ck
+$ git clone http://github.com/ctuning/ck
+$ export PATH=$PWD/ck/bin:$PATH
+
+```
+
+or
+
+```
+$ sudo pip install ck
+```
+
+### Windows
+
+First you need to download and install a few dependencies from the following sites:
+
+* Git: https://git-for-windows.github.io
+* Minimal Python: https://www.python.org/downloads/windows
+
+You can then install CK as following:
+```
+ $ git clone https://github.com/ctuning/ck.git ck
+ $ set PATH={CURRENT PATH}\ck\bin;%PATH%
+```
+
+## Usage
+
+Pull CK repo with all dependencies:
+
+```
 $ ck pull repo:ck-ai
 
 $ ck ls ai-artifact
