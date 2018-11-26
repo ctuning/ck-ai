@@ -1,73 +1,73 @@
-# Collective Knowledge repository for AI
+# Collective Knowledge repository for unified AI components and workflows
 
 [![compatibility](https://github.com/ctuning/ck-guide-images/blob/master/ck-compatible.svg)](https://github.com/ctuning/ck)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-## Introduction
-This is an [on-going community project](http://cKnowledge.org/ai) to unify and automate AI research,
-share AI artifacts as customizable and reusable components with JSON API using 
-[open-source CK framework](http://github.com/ctuning/ck),
-continuously [optimize and co-design the whole AI/SW/HW stack](http://cKnowledge.org/repo) 
-across diverse hardware/models/data sets/libraries,
-and help researchers adapt to a Cambrian AI/SW/HW explosion and technological chaos:
+# Introduction
+This is a [Collective Knowledge](http://cKnowledge.org) repository to unify and share 
+AI workflows (code, data sets and models) as portable, customizable and reusable components 
+with a common Python API and JSON meta-information.
+Such workflows help to continuously optimize and co-design 
+the whole SW/HW stack for AI/ML workloads across diverse platforms, frameworks, libraries, 
+models and data sets (see [ACM ReQuEST tournaments](http://cKnowledge.org/request),
+[MLPerf benchmark](http://mlperf.org) and the [public CK repository with crowdsourced expeirments](http://cKnowledge.org/repo))
+while helping researchers and developers to adapt to technological chaos:
 
 [![logo](http://cknowledge.org/images/ai-cloud-resize.png)](http://cKnowledge.org/ai)
 
 You can browse reusable AI artifacts from this repository [online](http://cKnowledge.org/ai-artifacts).
 
-Current AI artifacts are for [Caffe](https://github.com/dividiti/ck-caffe), 
-[Caffe2](https://github.com/ctuning/ck-caffe2),
+CK supports the following AI frameworks: 
 [TensorFlow](https://github.com/ctuning/ck-tensorflow),
 [MXNet](https://github.com/ctuning/ck-mxnet),
 [PyTorch](https://github.com/ctuning/ck-pytorch) 
+[Caffe](https://github.com/dividiti/ck-caffe), 
+[Caffe2](https://github.com/ctuning/ck-caffe2),
 and [CNTK](https://github.com/ctuning/ck-cntk).
 
-See [cKnowledge.org/ai](http://cKnowledge.org/ai) and [cKnowledge.org/request](http://cKnowledge.org/request) for more details.
 
-## Coordination of development
-* [Open CK AI consortium](http://cKnowledge.org/partners.org)
-* [dividiti](http://dividiti.com)
+
+# Coordination of development
+* [CK consortium](http://cKnowledge.org/partners.html)
+* [ReQuEST consortium](http://cKnowledge.org/request.html)
 * [cTuning Foundation](http://cTuning.org)
+* [dividiti](http://dividiti.com)
 
-## Minimal installation
 
-The minimal installation requires:
 
-* Python 2.7 or 3.3+ (limitation is mainly due to unitests)
-* Git command line client.
 
-### Linux/MacOS
+# Installing and customizing CK
 
-You can install CK in your local user space simply as follows:
+First you need to install Collective Knowledge framework (CK) as described 
+[here](https://github.com/ctuning/ck#Installation). 
 
-```
-$ git clone http://github.com/ctuning/ck ck-master
-$ export PATH=$PWD/ck-master/bin:$PATH
-$ export PYTHONPATH=$PWD/ck-master:$PYTHONPATH
-```
+If you have never used CK, we also suggest you to check this
+[CK getting started guide](https://github.com/ctuning/ck/wiki/First-Steps).
 
-You can also install CK via pip with sudo to avoid setting up environment variables yourself (skip sudo on Windows);
+You may also want to check how to [customize your CK installation](https://github.com/ctuning/ck/wiki/Customization).
+For example, you can force CK to install all packages (code, data sets and models) to your scratch file system 
+instead of the default ${HOME}/CK-TOOLS by specifying the path using environment variable "CK_TOOLS"! 
+You can also specify where to install all CK repositories instead of the default ${HOME}/CK 
+using environment variable "CK_REPOS".
 
-```
-$ sudo pip install ck
-```
 
-### Windows
 
-First you need to download and install a few dependencies from the following sites:
 
-* Git: https://git-for-windows.github.io
-* Minimal Python: https://www.python.org/downloads/windows
+*Note that [CK](https://github.com/ctuning/ck/wiki) 
+is a continuously evolving community project similar to Wikipedia,
+so if you don't like something or something is not working, 
+please do not hesitate to send your feedback
+to the [public mailing list](https://groups.google.com/forum/#!forum/collective-knowledge),
+open tickets in related [CK GitHub repositories](http://cKnowledge.org/shared-repos.html),
+or even contribute patches, updates, new workflows and research components!*
 
-You can then install CK as follows:
-```
- $ git clone https://github.com/ctuning/ck.git ck
- $ set PATH={CURRENT PATH}\ck\bin;%PATH%
-```
 
-## Usage
 
-Pull CK repo with all dependencies:
+
+
+# Installing and using this repository
+
+You can pull this CK repo with all dependencies as follows:
 
 ```
 $ ck pull repo:ck-ai
@@ -86,25 +86,17 @@ Follow interactive instructions to add an artifact description.
 
 Feel free to ask further questions via [CK public mailing list](http://groups.google.com/group/collective-knowledge).
 
-## Related Publications with long term vision
 
-```
-@inproceedings{cm:29db2248aba45e59:cd11e3a188574d80,
-    url = {http://arxiv.org/abs/1506.06256},
-    title = {{Collective Mind, Part II: Towards Performance- and Cost-Aware Software Engineering as a Natural Science.}},
-    author = {Fursin, Grigori and Memon, Abdul and Guillon, Christophe and Lokhmotov, Anton},
-    booktitle = {{18th International Workshop on Compilers for Parallel Computing (CPC'15)}},
-    publisher = {ArXiv},
-    year = {2015},
-    month = January,
-    pdf = {http://arxiv.org/pdf/1506.06256v1}
-}
 
-```
+
+
+
+# Related Publications 
+See [CK publications](https://github.com/ctuning/ck/wiki/Publications).
 
 ## Next steps
 
-We gradually add references about [all existing CK artifacts](http://cknowledge.org/repo/web.php?template=cknowledge&sort_by_uoa=yes&search_by_tags=tensorflow|caffe|caffe2|cntk|mxnet&aview=yes&ignore_without_alias=yes&archive_all=yes&force_limit=200&repo_list=ck-caffe,ck-tensorflow,ck-caffe2,ck-cntk,ck-pytorch,ck-mxnet,ck-mvnc) 
-including their installation, usage and optimization.
-The [CK AI consortium](http://cKnowledge.org/partners.html) is also working on a unification of all AI APIs 
-and meta descriptions - join us!
+We are gradually adding references about [all existing AI artifacts](http://cknowledge.org/repo/web.php?template=cknowledge&sort_by_uoa=yes&search_by_tags=tensorflow|caffe|caffe2|cntk|mxnet&aview=yes&ignore_without_alias=yes&archive_all=yes&force_limit=200&repo_list=ck-caffe,ck-tensorflow,ck-caffe2,ck-cntk,ck-pytorch,ck-mxnet,ck-mvnc) 
+in the CK format including their installation, usage and optimization.
+The [CK consortium](http://cKnowledge.org/partners.html) and [MLPerf](http://mlperf.org) are also working on a unification of all AI APIs and meta descriptions!
+
